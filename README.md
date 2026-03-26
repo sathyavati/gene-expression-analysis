@@ -1,7 +1,6 @@
-🧬 Gene Expression Analysis & Disease Relationship
+# 🧬Gene Expression Analysis and Disease Relationship
 
-
-# 📌 Project Overview
+## 📌 Project Overview
 
 This project explores how gene expression data and clinical features can be used to predict:
 
