@@ -91,7 +91,7 @@ Features:
        * TreatmentResponse
 ##  Methodology
 
-🔹 1. Data Preprocessing
+ 1. Data Preprocessing
 * Removed leakage features:
    * PatientID
    * SmokingStatus
@@ -100,26 +100,26 @@ Features:
    * Label Encoding
    * Feature Scaling
 
-🔹 2. Feature Selection
+ 2. Feature Selection
 * ANOVA (SelectKBest)
 * LASSO (conceptual from research)
 
-🔹 3. Dimensionality Reduction
+ 3. Dimensionality Reduction
 * PCA (Principal Component Analysis)
 * Reduced features → retained 99.1% variance
 
-🔹 4. Handling Imbalance
+ 4. Handling Imbalance
 * Applied SMOTE
 * Balanced class distribution for better learning
 
-🔹 5. Model Training
+ 5. Model Training
 * Logistic Regression
 * Random Forest
 * Support Vector Machine (SVM)
 
-✔ Hyperparameter tuning using GridSearchCV
+ Hyperparameter tuning using GridSearchCV
 
-✔ Cross-validation using Stratified K-Fold
+ Cross-validation using Stratified K-Fold
 ##  Evaluation Metrics
 
 * Accuracy
