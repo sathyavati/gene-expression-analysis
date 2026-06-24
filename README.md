@@ -1,30 +1,30 @@
-# 🧬Gene Expression Analysis and Disease Relationship
+# Gene Expression Analysis and Disease Relationship
 
-## 📌 Project Overview
+## Project Overview
 
 This project explores how gene expression data and clinical features can be used to predict:
 
-🧪 Disease Status
+* Disease Status
 
-💊 Treatment Response
+* Treatment Response
 
 Using machine learning, we aim to uncover biological patterns and support data-driven healthcare decisions.
 
 
-## 🧠 What is Gene Expression?
+##  What is Gene Expression?
 
 Gene expression refers to how actively a gene produces its functional products (like proteins).
 Variations in gene expression can indicate disease presence, progression, and severity.
-## 🎯 Problem Statement
+##  Problem Statement
 
 Can we predict disease status and treatment response using gene expression data and clinical features?
-## 💡 Why This Problem Matters
+##  Why This Problem Matters
 
-🔬 Molecular Insights
+ Molecular Insights
 
 Understanding how gene expression influences disease development
 
-🔗 Integration of Factors
+ Integration of Factors
 
 Combining:
 
@@ -34,14 +34,14 @@ Combining:
 
 * Lifestyle factors (Smoking)
 
-🧬 Personalized Medicine
+ Personalized Medicine
 
 * Early diagnosis
 
 * Biomarker discovery
 
 * Better treatment strategies
-## ⚠️ Challenges
+##  Challenges
 
 1. Biological Variability
 
@@ -62,11 +62,11 @@ Balancing:
 * High accuracy
 
 * Medical explainability
-## 📂 Dataset
+##  Dataset
 
-📍 Source: Kaggle (by ylmzasel)
+ Source: Kaggle (by ylmzasel)
 
-👥 Samples: 1000 patients
+ Samples: 1000 patients
 
 Features:
 
@@ -89,7 +89,7 @@ Features:
        * DiseaseStatus
 
        * TreatmentResponse
-## ⚙️ Methodology
+##  Methodology
 
 🔹 1. Data Preprocessing
 * Removed leakage features:
@@ -120,23 +120,23 @@ Features:
 ✔ Hyperparameter tuning using GridSearchCV
 
 ✔ Cross-validation using Stratified K-Fold
-## 📊 Evaluation Metrics
+##  Evaluation Metrics
 
 * Accuracy
 * Precision
 * Recall
 * F1 Score
 * ROC-AUC
-## 📈 Results
+##  Results
 
 | Model               | Accuracy    | F1 Score  | AUC       |
 | ------------------- | ----------- | --------- | --------- |
 | Logistic Regression | 0.69        | 0.78      | 0.83      |
-| Random Forest       | ⭐ **0.945** | **0.956** | **0.999** |
+| Random Forest       |  **0.945** | **0.956** | **0.999** |
 | SVM                 | 0.62        | 0.73      | 0.84      |
 
-👉 Best Model: Random Forest
-## 🔍 Key Insights
+ Best Model: Random Forest
+##  Key Insights
 
 * Gene expression is a strong predictor of disease
 * Most important features:
@@ -145,13 +145,13 @@ Features:
    * Gene_Y_Expression
 * PCA successfully reduced dimensionality
 * SMOTE improved minority class detection
-## 🚫 Limitations
+##  Limitations
 
 * Dataset has only 2 gene features
 * Severe class imbalance
 * TreatmentResponse prediction not possible:
     * Only one class present in diseased subset
-## 🔮 Future Work
+##  Future Work
 
 * Use large-scale genomic datasets
 * Apply deep learning (ANN, CNN)
